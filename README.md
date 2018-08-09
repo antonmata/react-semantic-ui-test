@@ -23,3 +23,15 @@ import 'semantic-ui-css/semantic.min.css';
 ```js
 import { Container, Header, Button, Segment } from 'semantic-ui-react';
 ```
+
+## Notes
+
+### No need to install Normalize.CSS
+
+No need to install `normalize.css`; It is already included in Semantic UI's base CSS.
+
+### No need to set `box-sizing: border-box`
+
+Semantic UI's base CSS already includes a number of resets including `box-sizing: border-box`.
+
+> [Semantic UI - Reset](https://semantic-ui.com/globals/reset.html)
