@@ -1,0 +1,11 @@
+.example {
+  &__header {
+    margin: 1em 0 5em 0;
+  }
+
+  &__button-group {
+    border: 0.0625em solid green;
+    padding: 2em 1em;
+    margin-bottom: 1em;
+  }
+}
